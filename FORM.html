@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Form</title>
+</head>
+<body>
+    <form action="first.html" method="get">
+       
+        <label for="month">Month:</label><br>
+        <input type="month" id="month" name="month" required><br><br>
+
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time" required><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter quantity" required><br><br>
+
+        <label for="search">Search:</label><br>
+        <input type="search" id="search" name="search" placeholder="Type to search..."><br><br>
+
+        <label for="options">Select an option:</label><br>
+        <select id="options" name="options" required>
+            <option value="">Choose an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Personalia</legend>
+
+            <label for="firstName">First Name:</label><br>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required><br><br>
+
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+    </form>
+
+ 
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="100px, initial-scale=1.0">
+  <title>HTML Structure with Combinators</title>
+  <style>
+    /* section > div {
+      border: 2px solid #7f4caf;
+      padding: 10px;
+      margin: 10px 0;
+    } */
+ 
+    h1 + p {
+      color: #759dd685;}
+      p.div1{ 
+      height: 5cm;
+      width:10cm;
+      border: 5px dashed red;
+      }
+
+    h1 ~ p {
+      color: #13426e;
+    }
+
+    section div h1 {
+      color: #011520;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div>
+      <h1>Main Heading</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod libero sunt facere voluptatibus autem nam non atque, officiis maiores voluptatem obcaecati nemo beatae repellendus ipsa, iure soluta tempora quasi alias.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident corrupti nulla dolore recusandae illo? Ea distinctio ut nesciunt possimus ab officia. Tempora incidunt beatae, nisi minima quis corrupti magnam ullam.</p>
+    </div>
+    <div>
+      <h1>Another Heading</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel doloremque perspiciatis, tenetur officia molestias sed minima quaerat iste qui veritatis libero consequatur possimus sit? Amet a veritatis ratione fugiat nulla!</p>
+    </div>
+  </section>
+</body>
+</html>
